@@ -1,0 +1,51 @@
+body
+{
+    height: 100%;
+}
+h1
+{
+    text-align: center;
+}
+
+.new
+{
+    position: relative;
+}
+.click
+{
+    position: absolute;
+    transform:translate(0%,-50%);
+    top:50%;
+    left: 0%;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border-radius:50%;
+    cursor: pointer; 
+    text-align: center;
+    font-weight: bold;
+    width: 40px;
+}
+.jumbotron
+{
+    background-color: black;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.left
+{
+    position: absolute;
+    transform:translate(0%,-50%);
+    top:50%;
+    right: 0%;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border-radius:50%;
+    cursor: pointer; 
+    text-align: center;
+    font-weight: bold;
+    width: 40px;
+}
